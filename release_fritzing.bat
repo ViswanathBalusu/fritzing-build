@@ -146,7 +146,7 @@ set CURRENTDIR=%cd%
 cd %DESTDIR%
 cd deploy
 
-git clone --branch master --single-branch https://github.com/fritzing/fritzing-parts.git  || exit /b 3
+git clone --branch develop --single-branch https://github.com/fritzing/fritzing-parts.git  || exit /b 3
 
 del/s placeholder.txt
 cd translations
