@@ -11,7 +11,7 @@ jobs:
     strategy:
       matrix:
         fritzing_ver: 
-          - 0.9.10
+          - develop
     env:
       BOOST_VER_DOT: 1.78.0
       BOOST_VER_UND: 1_78_0
