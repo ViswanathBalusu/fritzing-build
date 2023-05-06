@@ -10,14 +10,8 @@ jobs:
     runs-on: windows-2019
     strategy:
       matrix:
-        fritzing_ver: [
-          0.9.9b,
-          0.9.8b,
-          0.9.7b,
-          0.9.6-github,
-          0.9.6,
-          0.9.6b
-        ]
+        fritzing_ver: 
+          - 0.9.10
     env:
       BOOST_VER_DOT: 1.78.0
       BOOST_VER_UND: 1_78_0
